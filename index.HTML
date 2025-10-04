@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promo Terbaik Shopee - Afiliasi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #f45d01;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: .5rem;
+    }
+    header p {
+      font-size: 1rem;
+      margin-bottom: 1.2rem;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #fff;
+      color: #f45d01;
+      text-decoration: none;
+      font-weight: 700;
+      padding: .8rem 1.5rem;
+      border-radius: 50px;
+      border: 2px solid #fff;
+      transition: all 0.3s ease;
+    }
+    .cta-btn:hover {
+      background: #ffede0;
+      color: #d94e00;
+    }
+
+    .countdown {
+      margin-top: 1.5rem;
+      font-size: 1.1rem;
+      background: #fff;
+      color: #f45d01;
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-weight: 700;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+      position: relative;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+    .discount-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #ff3b00;
+      color: white;
+      padding: 5px 10px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    .product-content {
+      padding: 1rem;
+      text-align: center;
+    }
+    .product-content h3 {
+      font-size: 1.1rem;
+      margin-bottom: .5rem;
+      color: #333;
+    }
+    .product-content p {
+      font-size: .9rem;
+      color: #666;
+      margin-bottom: 0.8rem;
+    }
+    .price {
+      margin-bottom: 1rem;
+    }
+    .price .old-price {
+      text-decoration: line-through;
+      color: #999;
+      font-size: 0.9rem;
+      margin-right: 0.5rem;
+    }
+    .price .discount-price {
+      color: #f45d01;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .btn {
+      display: inline-block;
+      background: #f45d01;
+      color: white;
+      text-decoration: none;
+      padding: .6rem 1.2rem;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #d94e00;
+    }
+    footer {
+      background: #f5f5f5;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .9rem;
+      color: #666;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Promo Terbaik Shopee Hari Ini!</h1>
+    <p>Dapatkan produk pilihan dengan harga spesial — klik untuk beli lewat link afiliasi Shopee!</p>
+    <a href="https://shopee.co.id/" target="_blank" class="cta-btn">Lihat Semua Promo di Shopee</a>
+
+    <div class="countdown" id="countdown">Promo Berakhir Dalam: 00:00:00</div>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <span class="discount-tag">-75%</span>
+      <img src="https://down-id.img.susercontent.com/file/sg-11134201-7reoj-m2wbxbjrfdbt8e@resize_w450_nl.webp" alt="Headphone Bluetooth">
+      <div class="product-content">
+        <h3>Termurah Tisu Bayi</h3>
+        <p>10 Pack Tisu Basah Bayi Untuk Lap Ganti Popok Non Alkohol Aman Untuk Bayi.</p>
+        <div class="price">
+          <span class="old-price">Rp200.000</span>
+          <span class="discount-price">Rp36.575</span>
+        </div>
+        <a href="https://s.shopee.co.id/2VipwIUk2g/" class="btn" target="_blank">Lihat di Shopee</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <span class="discount-tag">-80%</span>
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7ra0p-mdea7ltjagpk7c.webp" alt="Smartwatch">
+      <div class="product-content">
+        <h3>Masker Pemutih Wajah</h3>
+        <p>BIOAQUA Natural Skin Care Mask Masker Sheet Anti-oksidan、Melembapkan
+Cocok untuk jenis kulit: Kulit normal, kulit kering, kulit sensitif.</p>
+        <div class="price">
+          <span class="old-price">Rp12.500</span>
+          <span class="discount-price">Rp2.600</span>
+        </div>
+        <a href="https://s.shopee.co.id/3qEDXJ7obi/" class="btn" target="_blank">Lihat di Shopee</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <span class="discount-tag">-46%</span>
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-81zto-mf6p45vn7j7x00.webp" alt="Botol Minum">
+      <div class="product-content">
+        <h3>Celana Cutbray Scuba</h3>
+        <p>Celana Panjang Wanita Kulot Bahan Scuba Premium Nyaman Adem Tebal Dan Elegan.</p>
+        <div class="price">
+          <span class="old-price">Rp75.000</span>
+          <span class="discount-price">Rp25.000</span>
+        </div>
+        <a href="https://s.shopee.co.id/5Ajb8W9oBM/" class="btn" target="_blank">Lihat di Shopee</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <span class="discount-tag">-45%</span>
+      <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk0-m9zrek470eur89.webp" alt="Powerbank">
+      <div class="product-content">
+        <h3>Powerbank 20.000 mAh</h3>
+        <p>Isi daya cepat dengan teknologi fast charging, praktis dibawa ke mana saja.</p>
+        <div class="price">
+          <span class="old-price">Rp129.000</span>
+          <span class="discount-price">Rp53.000</span>
+        </div>
+        <a href="https://s.shopee.co.id/5VMRXNxKhI/" class="btn" target="_blank">Lihat di Shopee</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Afiliasi Shopee | Semua hak dilindungi.
+  </footer>
+
+  <script>
+    // Countdown otomatis (3 jam dari sekarang)
+    const countdownElement = document.getElementById('countdown');
+    const deadline = new Date().getTime() + (3 * 60 * 60 * 1000); // 3 jam ke depan
+
+    const timer = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = deadline - now;
+
+      const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((distance / (1000 * 60)) % 60);
+      const seconds = Math.floor((distance / 1000) % 60);
+
+      countdownElement.textContent = `Promo Berakhir Dalam: ${hours.toString().padStart(2, '0')}:${minutes
+        .toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+      if (distance < 0) {
+        clearInterval(timer);
+        countdownElement.textContent = "Promo Telah Berakhir 😢";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
